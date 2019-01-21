@@ -1,0 +1,8 @@
+language: csharp
+solution: exercides/dotnet/TaxCaluculater.sln
+before_script: cd exercides/dotnet/
+mono: none
+dotnet: 2.1.502
+script:
+ - dotnet restore
+ - dotnet test
