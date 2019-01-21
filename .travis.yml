@@ -1,6 +1,6 @@
 language: csharp
-solution: exercides/dotnet/TaxCaluculater.sln
-before_script: cd exercides/dotnet/
+solution: exercises/dotnet/TaxCaluculater.sln
+before_script: cd exercises/dotnet/
 mono: none
 dotnet: 2.1.502
 script:
